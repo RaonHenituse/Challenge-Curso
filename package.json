@@ -1,0 +1,42 @@
+{
+  "name": "lista_tareas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev2": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "dev": "nodemon Index"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "next": "15.3.5",
+    "nodemon": "^3.1.10",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "Index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaonHenituse/Challenge-Curso.git"
+  },
+  "author": "Tomas Catalano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaonHenituse/Challenge-Curso/issues"
+  },
+  "homepage": "https://github.com/RaonHenituse/Challenge-Curso#readme"
+}
