@@ -5,9 +5,10 @@
   "scripts": {
     "dev2": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
+    "start2": "next start",
     "lint": "next lint",
-    "dev": "nodemon Index"
+    "dev": "nodemon Index",
+    "start": "node start"
   },
   "dependencies": {
     "express": "^5.1.0",
@@ -22,6 +23,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^17.0.1",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
     "tailwindcss": "^4",
